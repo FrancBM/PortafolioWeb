@@ -1,0 +1,32 @@
+#aboutme {
+  .about-section {
+    .skill-item {
+      margin-bottom: 20px;
+    }
+    .progress {
+      height: 30px;
+      border-radius: 0;
+        &-title{
+          font-weight: 300;
+          text-transform: uppercase;
+          letter-spacing: 0.1em;
+        }
+        .progress-bar {
+          background: $color-black;
+          &-skill1{
+            background: #81bde9;
+          }
+          &-skill2{
+            background: #6cb2e5;
+          }
+          &-skill3{
+            background: #56a7e1;
+          }
+          &-skill4{
+            background: #419bdd;
+          }
+        }
+
+      }
+  }
+}

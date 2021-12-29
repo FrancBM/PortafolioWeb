@@ -1,0 +1,16 @@
+/*===================== HABILIDADES =====================*/
+#skills{
+
+.skills-section {
+    hr {
+      border-color: $color-white;
+    }
+    .icon {
+      font-size: 3.5rem;
+      text-shadow: 5px 5px 0 #2074b1;;
+    }
+    p.description{
+      font-size: 0.9rem;
+    }
+  }
+}
