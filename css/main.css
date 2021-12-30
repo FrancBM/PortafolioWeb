@@ -1,6 +1,4 @@
-@charset "UTF-8";
 /*Variables*/
-/*===================== SASS =====================*/
 [data-animate] {
   /* visibility: hidden; */
 }
@@ -100,7 +98,6 @@ section {
   transition: all 0.1s !important;
 }
 
-/*===================== NAVBAR =====================*/
 nav.navbar {
   padding-top: 0;
   padding-bottom: 0;
@@ -154,29 +151,7 @@ nav.navbar a.nav-link.active, nav.navbar a.nav-link:hover {
   }
 }
 
-/*===================== INTRO =====================*/
-.intro-section {
-  padding-top: 150px;
-  color: #fff;
-}
-
-.intro-section.logo, .intro-section p {
-  margin-bottom: 120px;
-}
-
-@media (min-width: 992px) {
-  .intro-section {
-    min-height: 100vh;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-  }
-}
-
-/*===================== DISEÑO =====================*/
+/*===================== TEMA =====================*/
 body {
   font-family: "Roboto", sans-serif;
   font-size: 1rem;
@@ -215,13 +190,14 @@ h6,
   color: inherit;
 }
 
+/*=====mixin=======*/
 h1,
 .h1 {
   font-size: 3.6rem;
 }
 
 h2,
-.h2 {
+.h3 {
   font-size: 2.15rem;
 }
 
@@ -245,11 +221,13 @@ h6,
   font-size: 1rem;
 }
 
+/*=====mixin=======*/
 .lead {
   font-size: 1.4375rem;
   font-weight: 300;
 }
 
+/*=====maps=======*/
 .display-1 {
   font-size: 6rem;
   font-weight: 300;
@@ -274,6 +252,7 @@ h6,
   line-height: 1.2;
 }
 
+/*=====maps=======*/
 hr {
   border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
@@ -313,7 +292,6 @@ a.text-primary:hover, a.text-primary:focus {
   color: #2b90d9 !important;
 }
 
-/*===================== ACERCA DE MÍ =====================*/
 .about-section .skill-item {
   margin-bottom: 20px;
 }
@@ -347,20 +325,6 @@ a.text-primary:hover, a.text-primary:focus {
 
 .about-section .progress .progress-bar-skill4 {
   background: #419bdd;
-}
-
-/*===================== HABILIDADES =====================*/
-.skills-section hr {
-  border-color: #fff;
-}
-
-.skills-section .icon {
-  font-size: 3.5rem;
-  text-shadow: 5px 5px 0 #2074b1;
-}
-
-.skills-section p.description {
-  font-size: 0.9rem;
 }
 
 /*===================== APPS =====================*/
@@ -428,5 +392,41 @@ footer.main-footer p.template-bootstrapious {
 
 footer.main-footer p.template-bootstrapious a {
   color: #999;
+}
+
+/*===================== INTRO =====================*/
+.intro-section {
+  padding-top: 150px;
+  color: #fff;
+}
+
+.intro-section.logo, .intro-section p {
+  margin-bottom: 120px;
+}
+
+@media (min-width: 992px) {
+  .intro-section {
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+}
+
+/*===================== HABILIDADES =====================*/
+.skills-section hr {
+  border-color: #fff;
+}
+
+.skills-section .icon {
+  font-size: 3.5rem;
+  text-shadow: 5px 5px 0 #2074b1;
+}
+
+.skills-section p.description {
+  font-size: 0.9rem;
 }
 /*# sourceMappingURL=main.css.map */
