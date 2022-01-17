@@ -44,18 +44,49 @@
             </div>
         </nav>
     </header>
-
-    <!-- Imagen de introduccion -->
-    <section id="intro" style="background: url(img/home.jpg) center center no-repeat; background-size: cover;"
-        class="intro-section pb-2">
-        <div class="container text-center">
-            <div data-animate="fadeInDown" class="logo"><img src="img/logo-big.png" alt="logo iniciales" width="130"
-                    alt="esta imagen "></div>
-            <h1 data-animate="fadeInDown" class="text-shadow mb-5">¡Bienvenido a mi portafolio!</h1>
-            <p data-animate="slideInUp" class="h3 text-shadow text-400">Programador web full stack dedicado al
-                aprendizaje y mejora continua.</p>
+    <!-- Formulario -->
+    <section id="contact" data-animate="bounceIn" class="contact-section contact">
+        <div class="container">
+            <header class="text-center">
+                <h2 class="title">Formulario de Contacto</h2>
+            </header>
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <form id="contact-form" method="post" action="">
+                        <div class="messages"></div>
+                        <div class="controls">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <input type="text" name="name" placeholder="Nombre *" required="required"
+                                        class="form-control">
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="text" name="surname" placeholder="Apellido *" required="required"
+                                        class="form-control">
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="text" name="email" placeholder="Correo *" required="required"
+                                        class="form-control">
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="text" name="phone" placeholder="Teléfono" class="form-control">
+                                </div>
+                                <div class="col-md-12">
+                                    <textarea name="message" placeholder="Algún mensaje para mí *" rows="4"
+                                        required="required" class="form-control"></textarea>
+                                </div>
+                                <div class="col-md-12 text-center">
+                                    <button type="submit" class="btn btn-outline-primary">Enviar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
         </div>
     </section>
+    <!-- Map-->
+    <!--  <div id="map"></div> -->
     <!-- Footer-->
     <footer class="main-footer">
         <div class="container">
@@ -84,6 +115,8 @@
 
     <script src="src/jquery/jquery.min.js"></script>
     <script src="src/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.js"> </script>
+    <script src="js/front.js"></script>
 
 </body>
 

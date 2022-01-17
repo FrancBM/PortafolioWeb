@@ -3,6 +3,11 @@
     footer.main-footer {
         padding: 60px 0;
         background: #222;
+        position:fixed;
+        left:0px;
+        bottom:0px;
+        height:30px;
+        width:100%;
         p.social a {
           margin-left: 10px;
         color: $color-white;
