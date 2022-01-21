@@ -3,7 +3,11 @@
     .form-control {
         margin-bottom: 20px;
       } 
-    
-    #map {
-        height: 400px;
-      }
+
+    .iframe-responsivo {
+      position: sticky;
+      top:0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
